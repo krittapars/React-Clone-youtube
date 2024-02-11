@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html
+{
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+#main-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template: 
+  " n n"
+  " s c";
+}
+
+#nav {
+  grid-area: n;
+background-color: antiquewhite;
+}
+#content {
+  grid-area: s;
+  background-color: rgb(121, 75, 14);
+}
+#side {
+  grid-area: c;
+  background-color:azure;
+}
