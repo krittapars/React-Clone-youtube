@@ -1,16 +1,45 @@
-import styles from './Nav.module.css'
+import styles from '../Nav/NavStyles.module.css'
+import './NavStyle.css'
 
 
 function Nav() {
   return (
-    <section id='nav'>
-        
-          <div className={styles.con}>
-            <div className={styles.start}>1</div>
-            <div className={styles.center}>2</div>
-            <div className={styles.end}>3</div>
+    <section id="nav">
+      <div className="-brand">
+        <div className="-ham"><img src="https://via.placeholder.com/24x24" alt="" />
+        </div>
+        <div className="-logo"><img src="https://via.placeholder.com/97x20" alt="" />
+        </div>
+      </div> 
+      <div className="-center">
+        <div className="-search">
+          <div className="-search-box">
+            <input type="text" className="-search-input" /></div>
+            <div className="-btn"> Q</div>
+        </div>
+        <div className="-voice"></div>
+
+      </div> 
+      <div className="-end">
+        <div className="-end-item">x</div>
+        <div className="-end-item">x</div>
+        <div className="-end-item">x</div>
+      </div> 
+
+
+           {/* <div className={styles.wrap}>
+          <div className={styles.nav_brand}>
+            <div className={styles.ham}>
+              <img src="https://via.placeholder.com/24x24" alt="" />
+            </div>
+            <div className={styles.logo}>
+              <img src="https://via.placeholder.com/97x20" alt="" />
+            </div>
           </div>
-        
+          <div className="-center">2</div>
+          <div className="-end">3</div>
+          
+      </div>   */}
         
     </section>
   )

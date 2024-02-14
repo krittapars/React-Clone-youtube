@@ -16,19 +16,18 @@ body {
   display: grid;
   grid-template: 
   " n n" 56px /* ขนาดความสูง */
-  " s c" / 240px; /* หน้า auto/240 -ขนาด colume */
+  " s c" / 240px 333px; /* หน้า auto/240 -ขนาด colume */
 }
 
 #nav {
   grid-area: n;
-background-color: antiquewhite;
+
 
 }
 #content {
   grid-area: s;
-  background-color: rgb(121, 75, 14);
 }
 #side {
   grid-area: c;
-  background-color:azure;
+  
 }
